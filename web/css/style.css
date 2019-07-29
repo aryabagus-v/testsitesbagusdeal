@@ -14,7 +14,7 @@ body {
 
 header {
   background: #2c538f;
-  height: 70px;
+  height: 77px;
 }
 
 header::after {
@@ -118,13 +118,13 @@ input[type=text] {
 
 input[type=text]:focus {
   width: 100%;
-  
+   background-color:white;
 }
 
 
 input[type=text]:hover {
   background-image: none;
-  
+   background-color:white;
 }
 
 .
