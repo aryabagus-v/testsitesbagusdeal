@@ -147,15 +147,23 @@ text-decoration:none;
    color: #2ccdd9;
 }
 
-/* parallax scroll img */
+
 .parallax {
-  /* The image used */
   background-image: url("../images/7.jpg");
 
-  /* Set a specific height */
   min-height: 480px; 
 
-  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heropageriset {
+  background-image: url("../images/13.jpg");
+
+  min-height: 480px; 
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
